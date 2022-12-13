@@ -1,0 +1,92 @@
+for(var i = 0; i < a.length; i++) {
+        letter = a[i];
+        temp = letter;
+        console.log(letter);
+        index = i;
+        console.log(index);
+
+        if (result[a[i]] === undefined) {
+            result[a[i]] = [];
+        }
+        // console.log(result[a[i]])
+        result[a[i]].push(i);
+        // temp = letter;
+        // console.log(letter);
+        // index = i;
+        // console.log(index);
+
+    }
+    return result;
+}
+
+
+
+console.log(mapLetters("dodo"));
+
+console.log(mapLetters("froggy"));
+console.log(mapLetters("grapes"));
+
+
+//task 4
+
+ console.log(whoCursedTheMost([first, second, third]));
+
+console.log(whoCursedTheMost([{me: 80, spouse: 5}, {me: 23, spouse: 15}, {me: 6, spouse: 15}]));
+
+console.log(whoCursedTheMost([{me: 10, spouse: 5}, {me: 5, spouse: 10}, {me: 0, spouse: 10}]));
+console.log(whoCursedTheMost([{me: 10, spouse: 5}, {me: 5, spouse: 10}, {me: 0, spouse: 0}]));
+
+//task 5
+
+// Create a function that converts color in RGB format to Hex format.
+// Examples:
+// rgbToHex({red: 0, green: 128, blue: 192}) ➞ "#0080c0";
+
+var blue = {
+var rgb = {
+    r: 67,
+    g: 84,
+    b: 90
+@@ -180,5 +188,126 @@ function RGBToHex(a) {
+    return "#" + r + g + b;
+}
+
+console.log(RGBToHex(blue))
+console.log(RGBToHex({r: 0, g: 128, b: 192}))
+console.log(RGBToHex(rgb));
+console.log(RGBToHex({r: 0, g: 128, b: 192}));
+
+//task 6
+
+// Create a function that takes an amount of monetary change (e.g. 47 cents) and breaks
+// down the most efficient way that change can be made using USD quarters, dimes,
+// nickels and pennies. Your function should return an object.
+
+function makeChange(a) {
+    var quarter = 25;
+    var dime = 10;
+    var nickel = 5;
+    var penny = 1;
+    var result = {};
+    var temp = 0;
+
+
+    temp = parseInt(a / quarter);
+    result.q = temp;
+    a -= quarter * temp;
+    temp = parseInt(a / dime)
+    result.d = temp;
+    a -= dime * temp;
+    temp = parseInt(a / nickel)
+    result.n = temp;
+    a -= nickel * temp;
+    temp = parseInt(a / penny)
+    result.p = temp;
+
+
+    return result;
+}
+
+console.log(makeChange(47))
+console.log(makeChange(24))
+console.log(makeChange(92))

@@ -1,0 +1,106 @@
+// how to write a program to compute the sum and product of an array of integers?
+
+var sum = 0;
+for( var i = 0; i < elmt.length; i++ ){
+    sum += parseInt( elmt[i], 10 ); //don't forget to add the base
+}
+
+var avg = sum/elmt.length;
+
+document.write( "The sum of all the elements is: " + sum + " The average is: " + avg );
+
+
+
+var s = " 34abc";
+console.log (parseInt (s));
+
+functions f(a, b) {
+    return  1 + a + b;
+}
+var result;
+result = f(4, 5, 32, 11);
+console.log (result);
+
+function selection(a,b,c){
+    if(a>b && a>c){
+        return a;
+    }
+    if (b>a && b<c){
+        return b;
+    }
+    if (c>a && c<b){
+        return c;
+    }
+}
+var result;
+result=selection(4,5,2);
+console.log(result);
+
+function sum () {
+    return arguments [0]
+
+}
+
+for (var i = 0; i < 5;) {
+    console.log('*');
+}
+    
+
+
+
+console.log (2 + true);
+
+var a = [ 2, 3, 11];
+a.length = 5;
+console.log (a)
+
+for (var i = 0 ; i < 10; i += 2 ) {
+    console.log (i);
+}
+
+
+var n = 23;
+n -= 2;
+console.log (n)
+
+var a = " ";
+var n = 4;
+
+while (n >=0) {
+    a+= "*";
+    n--;
+}
+console.log(a)
+
+
+
+var s = "JavaScript Programming";
+var result = s [3];
+console.log (result);
+
+var a = 10;
+var b = 12;
+var tmp;
+tmp = a;
+a = b;
+b = tmp;
+console.log (a, b);
+
+var sum = 0;
+for (var i =4; i < 8; i = i + 1) {
+    sum +=i;
+    console.log (sum);
+}
+ var sum = 0;
+ for(var i = 0; i < 5; i++ ){
+    sum += i;
+    console.log(sum);
+ }
+
+ var a = [2, 3, 11, 5, 23, 24];
+ a.length = 2;
+ console.log (a);
+
+ function mul (a, b ) {
+    
+ }
