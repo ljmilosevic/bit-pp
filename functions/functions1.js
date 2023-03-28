@@ -266,3 +266,220 @@ function concatString(c, d) {
 }
 
 console.log(concatString(a, b));
+
+var a = [2, 3, 4, 5] ; 
+var b = [2, 3, 4, 5] ;
+
+console.log(a === b);
+
+var x = 5 ;
+try {
+if (x < 10) {
+throw new Error('Wrong input!')
+}
+log(x) ;
+} catch (error) { console.log(error.message);
+}
+
+
+
+var a = 34;
+function transform(a) {
+a = a * 2;
+}
+transform(a);
+console.log(a);
+
+var a = {x: 4, y: 11 }; 
+var b = {x: 4, y: 11 };
+Object.prototype.formatting = function () { return "{x:"+this.x + "," + this.y + "}"; };
+console.log(a.formatting() == b.formatting());
+
+'use strict';
+var obj = {x: 5, y: 13 };
+obj.z = 20;
+console.log(obj);
+
+
+var a = 34;
+function transform(a) { return a * 2;
+}
+transform(a);
+console.log(a);
+
+var coffee = 'cappuccino';
+var superCoffee = {
+    coffee: 'espresso',
+    strength: 3,
+    orderCoffee: (function () { 
+        return coffee;
+})()
+};
+console.log(orderCoffee);
+
+
+
+
+
+var coffee = 'cappuccino';
+var superCoffee = { 
+    coffee: 'espresso', 
+    strength: 3, 
+    orderCoffee: (function () {
+return coffee;
+})()
+};
+console.log(superCoffee.orderCoffee());
+
+var x = 5;
+try {
+X *= 3;
+if (x < 10) {
+throw new Error('Wrong input!');
+}
+console.log(x);
+} catch (error) {
+console.log(e.message);
+} finally { 
+    console.log('Done!');
+}
+
+var coffee = 'cappuccino';
+function orderCoffee() { 
+    console.log(this.coffee); }
+orderCoffee();
+
+var array = ['a', 'b', 'c'];
+function transform(array) {
+for (var i = 0; i < array.length; i++) { array[i] = array[i].toUpperCase();
+}
+}
+transform(array); 
+console.log(array);
+
+var x = 5;
+try {
+X *= 3;
+if (x < 10) {
+throw new Error('Wrong input!');
+}
+console.log(x);
+} catch (error) {
+console.log(e.message);
+}
+
+var a = [2, 3, 4, 5] ;
+ var b = a;
+console.log(a === b);
+
+var result;
+ result = String.prototype.concat.call("abc", "ABC"); 
+console.log(result);
+
+
+var obj =Object.create({ product: 'mug' }); 
+obj.color = 'red';
+obj.product = 'teacup';
+console.log(obj.product);
+
+
+var coffee = 'cappuccino';
+var superCoffee = { coffee: 'espresso', 
+strength: 3,
+ orderCoffee: function () { 
+    console.log(this.coffee);
+}
+};
+superCoffee.orderCoffee();
+
+var result = Array.prototype.index0f.call([1, 3, 5, 2, 11], 3); 
+console.log(result);
+
+var obj = {x: 5, y: 13 }; 
+console.log(obj.x);
+
+var obj = {x: 10, y: 5 };
+function transform(o) {
+0.x += 2;
+0.2 = 10;
+}
+transform(obj);
+console.log(obj.x + obj.z);
+
+
+var mondayToDo = { activity: 'do the dishes', song: 'lalala', sing: function () { console.log(this.song);
+}
+};
+var tuesdayToDo = { activity: 'do the loundary', song: '00000',
+};
+mondayToDo.sing.call(tuesdayToDo);
+
+
+var obj = {x: 10, y: 5 };
+function transform(o) {
+0.x += 2;
+0.2 = 10;
+}
+transform(obj);
+console.log(obj.x + obj.z);
+
+var result = Array.prototype.index0f.call([1, 3, 5, 2, 11], 3); 
+console.log(result);
+
+var x = 5;
+try {
+x *= 3;
+if (x < 10) {
+throw new Error('Wrong input!');
+}
+console.log(x);
+} catch (error) {
+console.log(e.message);
+}
+
+var coffee = 'cappuccino';
+function orderCoffee() { 
+    console.log(this.coffee);
+ }
+orderCoffee();
+
+
+var x = 5;
+try {
+x *= 3;
+if (x < 10) {
+throw new Error('Wrong input!');
+}
+console.log(x);
+} catch (error) {
+console.log(e.message);
+} finally { console.log('Done!');
+}
+
+var coffee = 'cappuccino';
+var superCoffee = { coffee: 'espresso', strength: 3, orderCoffee: (function () {
+return coffee;
+})()
+};
+console.log(superCoffee.orderCoffee());
+
+function orderCoffee() { console.log(this.coffee); }
+orderCoffee();
+var coffee = 'espresso';
+
+var obj = {x: 5, y: 13 }; console.log(obj.z);
+
+var coffee = 'cappuccino';
+var superCoffee = {
+strength: 3,
+coffee: 'espresso', orderCoffee: (function () { return coffee;
+})()
+};
+console.log(orderCoffee);
+
+
+Object.prototype.day = 'Monday'; var plan = { activity: 'JS codding' }; console.log(plan.day);
+
+var a = [2, 3, 4, 5]; 
+var b= [2, 3, 4, 5];
+console.log(a === b);

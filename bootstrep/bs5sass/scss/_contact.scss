@@ -1,0 +1,21 @@
+.contact-fields {
+    margin: 0 auto;
+    max-width: 550px;
+}
+
+.contact input,
+.contact textarea {
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: $contact-form-text-color;
+    padding-bottom: 15px;
+}
+
+.contact button {
+    background-color: $greenish-color;
+    border-color: $greenish-color;
+    font-weight: 600;
+}
+

@@ -1,0 +1,24 @@
+nav {
+    background-color: $bluish-color;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: $greenish-color;
+}
+
+.navbar-toggler {
+    border: 2px solid white;
+    border-radius: 2px;
+    font-size: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}

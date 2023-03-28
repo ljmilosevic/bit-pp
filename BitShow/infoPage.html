@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <script text="text/javascript" src="./js/index.js" async></script>
+
+    <script text="text/javascript" src="./js/info.js" async></script>
+
+    <link rel="stylesheet" href="./sass/index.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <nav >
+            <div class="container" >
+                <div class="logo">
+                    <p>Bit<span>Show</span></p>
+                </div>
+                <input class="col-sm-3 col-lg-3 col-md-3 col-xl-2 col-xxl-2 btn dropdown-toggle search-bar" type="text" placeholder="Search" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" >
+                
+                <ul class="dropdown-menu col-sm-3 col-lg-3 col-md-3 col-xl-2 col-xxl-2" aria-labelledby="dropdownMenuLink">
+                    <!-- <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Game of Thrones</h1>
+
+        <div class="col-sm-12 col-lg-12 col-md-12 col-xl-12 col-xxl-12" id="div-table">
+
+            <!-- <div id="image">
+
+            </div>
+
+            <div id="seasons">
+
+            </div>
+
+            <div id="cast">
+
+            </div> -->
+            <table >
+                <tr>
+                    <td rowspan="2" id="image">
+                        <!-- <img src="./placeholder image.jpg" alt=""> -->
+                    </td>
+
+                    <td>
+                        <h2>Seasons</h2>
+                        <ul id="seasons">
+                            <!-- <li>1</li> -->
+                        </ul> 
+                       
+                        <tr>
+                            <td>
+                                <h2>Cast</h2>
+
+                                <ul id="cast">
+                                    <!-- <li>Brad Pit</li> -->
+                                </ul>
+                            </td>
+                        </tr>
+                    </td>
+
+                </tr>
+
+
+                <tr >
+                    <td colspan="2">
+                        <h2>Show Details</h2>
+                        <div id="show-details">
+
+                        </div>
+                        <!-- <p id="show-details">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos doloremque aspernatur totam deserunt reiciendis consectetur similique sint mollitia officiis aliquam, saepe magni illo dicta, praesentium ullam eum quo ut rerum sed necessitatibus voluptatem. Perspiciatis aliquam, sequi in vero obcaecati cumque impedit quibusdam eum. Praesentium, alias. In aut deserunt architecto eius?</p> -->
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <h2>Crew</h2>
+                        <ul id="crew"></ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <h2>AKAs</h2>
+                        <ul id="akas"></ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <h2>Episode list</h2>
+                        <ul id="episodes"></ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copiright &#169; Bit Student 2023</p>
+    </footer>
+
+    
+</body>
+</html>
